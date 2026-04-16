@@ -9,18 +9,41 @@ A Retrieval-Augmented Generation (RAG) chatbot that allows users to upload PDFs 
 - **LLM Integration:** Powered by Gemini 3.1 Flash for accurate, context-aware answers.
 - **User Interface:** Clean, interactive chat UI built with Streamlit.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language:** Python 3.14
 - **AI/LLM:** LangChain, Google Generative AI
 - **Database:** Pinecone
 - **Frontend:** Streamlit
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### 1. Clone the Repository
-```bash
+
 git clone [https://github.com/YOUR_USERNAME/AI-PDF-Chatbot.git](https://github.com/YOUR_USERNAME/AI-PDF-Chatbot.git)
 cd AIchatbot
 
+### 2. Configure Environment Variables
 
-<img width="1907" height="965" alt="Screenshot 2026-04-16 165135" src="https://github.com/user-attachments/assets/388874fd-a351-48c8-bbc3-5635014ba798" />
+### 3. Install dependencies 
+
+pip install -r requirements.txt
+
+
+### HOW TO USE:
+1. Place your PDFs in a folder named data/ and run:
+
+
+python ingest.py
+
+2. Launch Chatbot using:
+
+streamlit run main.py
+
+
+
+
+
+
+
+
+
